@@ -26,7 +26,7 @@ Complex Mult(Complex a,Complex b)
 {
     Complex result;
     result.x=a.x*b.x-a.y*b.y;
-    result.y=a.x*b.y-a.y*b.x;
+    result.y=a.x*b.y+a.y*b.x;
     return result;
 }
 
